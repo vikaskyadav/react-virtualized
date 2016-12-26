@@ -1,3 +1,5 @@
+export default from './Grid.refactor'
+
 /** @flow */
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
