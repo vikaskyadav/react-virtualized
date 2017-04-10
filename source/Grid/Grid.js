@@ -31,7 +31,7 @@ const SCROLL_POSITION_CHANGE_REASONS = {
  * Renders tabular data with virtualization along the vertical and horizontal axes.
  * Row heights and column widths must be known ahead of time and specified as properties.
  */
-export default class Grid extends PureComponent {
+export class Grid extends PureComponent {
   static propTypes = {
     'aria-label': PropTypes.string,
 
