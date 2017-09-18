@@ -25,8 +25,8 @@ It should be configured based on the type of measurements you need. It accepts t
 ### Prop Types
 | Property | Type | Required? | Description |
 |:---|:---|:---:|:---|
-| defaultHeight | number | | Umeasured cells will initially report this height |  
-| defaultWidth | number | | Umeasured cells will initially report this width |
+| defaultHeight | number | | Unmeasured cells will initially report this height |  
+| defaultWidth | number | | Unmeasured cells will initially report this width |
 | fixedHeight | boolean | | Rendered cells will have a fixed height, dynamic width |
 | fixedWidth | boolean | | Rendered cells will have a fixed width, dynamic height |
 | minHeight | number | | Derived row height (of multiple cells) should not be less than this value |
